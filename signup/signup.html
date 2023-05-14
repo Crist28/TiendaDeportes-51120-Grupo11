@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo-formulario">Registrarse</h1>
+        <form method="post" action="registro.php">
+          <label class="etiqueta-formulario" for="nombre">Nombre:</label>
+          <input class="campo-formulario" type="text" id="nombre" name="nombre" required>
+          <label class="etiqueta-formulario" for="apellido">Apellido:</label>
+          <input class="campo-formulario" type="text" id="apellido" name="apellido" required>
+          <label class="etiqueta-formulario" for="correo">Correo electrónico:</label>
+          <input class="campo-formulario" type="email" id="correo" name="correo" required>
+          <label class="etiqueta-formulario" for="contraseña">Contraseña:</label>
+          <input class="campo-formulario" type="password" id="contraseña" name="contraseña" required>
+          <label class="etiqueta-formulario" for="confirmacion-contraseña">Confirmación de contraseña:</label>
+          <input class="campo-formulario" type="password" id="confirmacion-contraseña" name="confirmacion-contraseña" required>
+          <button class="boton-formulario" type="submit">Registrarse</button>
+          <a href="/index.html">Regresar al inicio</a>
+          <a href="/login/login.html">Iniciar Sesion</a>
+        </form>
+      </div>
+</body>
+</html>
